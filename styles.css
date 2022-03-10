@@ -6,4 +6,91 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1a1a1a;
+}
+
+.big{
+    width:70%;
+    margin: auto;
+    height: 90vh;
+    margin-bottom: 30px;
+}
+
+header{
+    height: 50px;
+    padding: 5px;
+    background-color: black;
+}
+
+main{
+    background-color: #4b4b4b;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.genre{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    justify-content: center;
+    color: white;
+}
+
+
+li{
+    list-style-type: none;
+    margin: 10px;
+    height: 20px;
+    padding: 1px;
+}
+
+section{
+    display: flex;
+    height: 100%;
+}
+
+aside{
+    background-color: white;
+    width: 15% ;
+    height:100%;
+    padding: 10px;
+}
+
+.cards{
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+div{
+    width: 180px;
+    height: 150px;
+    margin: 10px;
+}
+
+.cards p{
+    height: 20%;
+    padding: 5px;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+.cards h2{
+    height: 80%;
+    text-align: center;
+    background-color: black;
+    padding: 40px 10px;
+}
+
+header p{
+    text-align: left;
+    color: white;
+    font-size: 2rem;
+
 }
